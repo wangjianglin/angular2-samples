@@ -9,7 +9,7 @@ import { Hero } from './hero';
   <h2>My favorite hero is: {{myHero.name}}</h2>
   <p>Heroes:</p>
   <ul>
-    <li *ngFor="let hero of heroes">
+    <li *ngFor='let hero of heroes'>
       {{ hero.name }}
       </li>
   </ul>
